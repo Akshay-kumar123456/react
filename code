@@ -667,3 +667,21 @@ function FlightSearch() {
 }
 
 export default FlightSearch;
+
+INSERT INTO route (arrival_city, departure_city, distance, duration)
+VALUES
+  ('Jaipur', 'Delhi', 300, 1.2),
+  ('Delhi', 'Jaipur', 300, 1.2),
+  ('Chennai', 'Mumbai', 800, 2.5),
+  ('Mumbai', 'Chennai', 800, 2.5),
+  ('Hyderabad', 'Bangalore', 600, 2),
+  ('Bangalore', 'Hyderabad', 600, 2),
+  ('Ahmedabad', 'Kolkata', 900, 3),
+  ('Kolkata', 'Ahmedabad', 900, 3),
+  ('Pune', 'Lucknow', 700, 2.2),
+  ('Lucknow', 'Pune', 700, 2.2),
+  ('Bhopal', 'Chandigarh', 500, 1.8),
+  ('Chandigarh', 'Bhopal', 500, 1.8),
+  ('Mumbai', 'Delhi', 750, 5),
+  ('Delhi', 'Mumbai', 750, 5);
+
